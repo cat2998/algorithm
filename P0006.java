@@ -18,7 +18,7 @@ public class P0006 {
         char[] str = s.toCharArray();
         Arrays.sort(str);
         for (int i = str.length - 1; i >= 0; i--)
-            answer.append(str[i]);
+            answer.append(str[i]); //insert(0, str); append 뒤에 붙이고 insert 는 원하는 index 에 삽입
         return answer.toString();
     }
 }
