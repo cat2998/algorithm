@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String args[]) {
-        P0017 p = new P0017();
-        p.solution(new int[]{1, 3, 4, 6});
+        P0021 p = new P0021();
+        p.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
     }
 }
